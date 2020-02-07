@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="">
 </head>
 <body>
     <header class="menu-container">
@@ -45,21 +47,83 @@
     </section>
     <section class="sobre-mi">
         <div class="contenedor-acerca">
-        <div class="item imagen">
-            <img src="hombre.png" alt="hombre" class="hombre">
-        </div>
-        <div class="item informacion">
-            <h2>Sobre mi</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis officia, itaque repudiandae, minima laborum, inventore maxime maiores deserunt at provident sapiente quis ut. Quisquam, illo corrupti dolores nihil eum rem?</p>
-            <p > <span class="info-lista">Nombre</span>:Adam</p>
-            <p >  <span class="info-lista">Edad</span>:25</p>
-            <p ><span class="info-lista">Direccion</span>:Cl 42 - a50 sur</p>
-            <p > <span class="info-lista">Telefono</span>:3109876754</p>
-            <p > <span class="info-lista">Email</span>:adam@gmail.com</p>
+            <div class="item imagen">
+                <img src="hombre.png" alt="hombre" class="hombre">
+            </div>
+            <div class="item informacion">
+                <h2>Sobre mi</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis officia, itaque repudiandae, minima laborum, inventore maxime maiores deserunt at provident sapiente quis ut. Quisquam, illo corrupti dolores nihil eum rem?</p>
+                <p > <span class="info-lista">Nombre</span>:Adam</p>
+                <p >  <span class="info-lista">Edad</span>:25</p>
+                <p ><span class="info-lista">Direccion</span>:Cl 42 - a50 sur</p>
+                <p > <span class="info-lista">Telefono</span>:3109876754</p>
+                <p > <span class="info-lista">Email</span>:adam@gmail.com</p>
             
-            <a href="#" class="enlace">Descargar cv</a>
+                <div class="boton-descarga">
+                    <a href="#" class="enlace">Descargar cv</a>
+                </div>
+            </div>
+            
         </div>
-    </div>
+    </section>
+    <section class="contenedor-tres">
+        <div class="contenedor-padre">
+            <div class="contenido">
+                
+                <div class="boton-que-hacemos">
+                    <a href="#" class="bton">¿QUE HACEMOS?</a>
+                </div>
+                <div class="contenedor-mis-servicios">
+                    <h3>Mis servicios</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. </p>
+                </div>
+                
+            </div>
+            <div class="contenedor-items">
+                <div class="items">
+                    
+                    <a href="javascript:computer()"><i class="large material-icons" style="font-size: 60px; display: inline;" >computer</i></a>
+                    <script>
+                        function computer(){
+                            alert('Desarrollo web');
+                        }
+                    </script>
+                    <h4></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. </p>
+                </div>
+                <div class="items">
+                    <a href="javascript:digital()"><i class="material-icons" style="font-size: 60px; display: inline;">insert_chart</i></a>
+                    <script>
+                        function digital(){
+                            alert('Marketing digital');
+                        }
+                    </script>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. </p>
+                </div>
+                <div class="items">
+                    <a href="javascript:identidad()"><i class="material-icons" style="font-size: 60px; display: inline;">pie_chart_outlined</i></a>
+                    <script>
+                        function identidad(){
+                            alert('Marca e identidad');
+                        }
+                    </script>
+                    <h4></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. </p>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>

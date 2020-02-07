@@ -91,11 +91,21 @@ body{
     display: -ms-flexbox;
     background-color: black;
     height: 900px;
-    align-items: center;
-    align-content: center;
     color: #FFF;
     padding: 0 20%;
     justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-acerca{
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 20%;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .imagen{
@@ -133,16 +143,13 @@ body{
 .informacion{
     align-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 5%;
     height: 485px;
     width: 600px;
     font-size: 15px;
 }
 
-.contenedor-acerca{
-    display: flex;
-    align-content: space-between;
-}
+
 
 /*Enlace*/
 .enlace{
@@ -152,19 +159,26 @@ body{
         color: white;
         text-decoration: none;
         border-radius: 20px;
-
+        transition: background-color 1s;
+        transition: color 1s;
     }
 
 .enlace:hover{
     background-color: rgb(238, 228, 82);
     color: black;
-
+    transition: background-color 1s;
+        transition: color 1s;
 }
 
 .enlace:link{
     background-color: rgb(240, 237, 193);
-    color: black; 
+    color: gray; 
     
+}
+
+.boton-descarga{
+    margin-top: 100px;
+
 }
 
 /*Codigo de colores de redes sociales*/
@@ -183,4 +197,90 @@ body{
 .redes-sociales .fa-github:hover{
     color: #24292e;
     background-color: white;
+}
+
+/*tercera parte*/
+.contenedor-tres{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.contenedor-items{
+    display: flex;
+    justify-content: center;
+}
+.items{
+    width: 300px;
+    border: solid 2px white;
+    margin-left: 18px;
+    background-color: black; 
+    margin-bottom: 2%;
+    color: white;
+    padding: 25px;
+    align-content: center;
+}
+
+.contenedor-items :hover{
+    background: rgb(224, 210, 1);
+    border: solid 2px rgb(224, 210, 1);
+    width: 300px;
+    margin-bottom: 2%;
+    color:white;
+    align-content: center;
+    z-index: 3;
+    transition: 1s;
+}
+
+.contenedor-mis-servicios{
+    width: 100%;
+    text-align: center;   
+    justify-content: center;
+    background-color: black; 
+}
+
+.contenedor-mis-servicios>h3{
+    font-size: 33px;
+    color: white;
+}
+
+.contenedor-mis-servicios>p{
+    font-size: 13px;
+    color: gray;
+    text-align: center;
+}
+
+
+.contenido{
+    width: 50%;
+    margin-bottom: 40px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.boton-que-hacemos{
+    border-radius: 20px;
+    background-color: rgb(224, 210, 1);
+    text-align: center;
+    width: 125px;
+    margin-left: 280px;
+}
+
+.boton-que-hacemos>a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.material-icons{
+    color: rgb(224, 210, 1);
+    margin-left: 40%;
+}
+
+.items>p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
